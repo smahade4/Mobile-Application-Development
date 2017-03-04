@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+     android:id="@+id/Layout2"
+    >
+    <ImageView
+        android:id="@+id/imgSecondFragment"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:focusable="false"
+       android:background="@drawable/a4"
+        />
+
+
+    <TextView
+        android:id="@+id/menuname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+
+    <TextView
+        android:id="@+id/Display"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Enter Quantity"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/menuname"/>
+
+    />
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/Display"
+        android:layout_below="@id/menuname"/>
+    />
+
+    <Button
+        android:id="@+id/buttonQuantity"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:focusable="false"
+        android:text="Add"
+        />
+
+
+</LinearLayout>

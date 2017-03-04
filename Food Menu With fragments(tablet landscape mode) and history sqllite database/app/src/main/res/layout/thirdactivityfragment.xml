@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    >
+
+    <ListView
+        android:id="@+id/selectedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorAccent"
+        android:layout_marginTop="60dp"
+        android:dividerHeight="2dp"
+        android:focusable="true"
+        />
+
+
+    <Button
+        android:id="@+id/buttonCheckOut"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:focusable="false"
+        android:text="CheckOut"
+        />
+
+</LinearLayout>

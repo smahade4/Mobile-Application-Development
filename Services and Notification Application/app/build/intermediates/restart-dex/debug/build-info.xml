@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="53241165638501"
+    token="-7591267484510106696"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="445" />
+    <task
+        name="instant-run-dex"
+        duration="956" />
+    <task
+        name="instant-run-transform"
+        duration="258" />
+    <task
+        name="verifier"
+        duration="10" />
+
+    <artifact
+        location="F:\course\mad\Assignment6\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="51168965732619" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="51520610341590"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\intermediates\builds\debug\51520610341590\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="51572372753599"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\intermediates\builds\debug\51572372753599\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="51620978058797"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\intermediates\builds\debug\51620978058797\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="52465997949314"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\intermediates\builds\debug\52465997949314\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="53241165638501"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\course\mad\Assignment6\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
