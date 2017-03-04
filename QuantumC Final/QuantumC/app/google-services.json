@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "423311058120",
+    "firebase_url": "https://quantumcinemas-final.firebaseio.com",
+    "project_id": "quantumcinemas-final",
+    "storage_bucket": "quantumcinemas-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423311058120:android:4daa53bca87c5197",
+        "android_client_info": {
+          "package_name": "com.cs442.dsuraj.quantumc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423311058120-jc3nbmo7cbi1t9061od0cga8pd8clf2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.dsuraj.quantumc",
+            "certificate_hash": "959B988346510B5C7281F26EECF42BFD517E570F"
+          }
+        },
+        {
+          "client_id": "423311058120-hlf5s349atbdumdnu8vqeuhu0lv2297p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA81meyhAGHmRqNSKiqz0StXZsJBvcNe1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423311058120-hlf5s349atbdumdnu8vqeuhu0lv2297p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

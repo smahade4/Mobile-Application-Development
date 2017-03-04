@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_seat_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cs442.dsuraj.quantumc.activity_seat_selection">
+
+    <TextView
+        android:text="Selected Seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_above="@+id/sold"
+        android:layout_alignStart="@+id/textView12"
+        android:textColor="#87A96B" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B2"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B1"
+        android:layout_toEndOf="@+id/B1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A7"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A6"
+        android:layout_toEndOf="@+id/A6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A6"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A5"
+        android:layout_toEndOf="@+id/A5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A4"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A5"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A4"
+        android:layout_toEndOf="@+id/A4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A3"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A2"
+        android:layout_toStartOf="@+id/A4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A2"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/A1"
+        android:layout_toStartOf="@+id/A3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B4"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B2"
+        android:layout_toEndOf="@+id/A3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B3"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B2"
+        android:layout_toEndOf="@+id/B2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B5"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B4"
+        android:layout_toEndOf="@+id/B4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B6"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B5"
+        android:layout_toEndOf="@+id/B5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/B7"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/B6"
+        android:layout_toEndOf="@+id/B6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C2"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C1"
+        android:layout_toEndOf="@+id/C1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C3"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C2"
+        android:layout_toEndOf="@+id/C2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C4"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C3"
+        android:layout_toEndOf="@+id/C3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C5"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C4"
+        android:layout_toEndOf="@+id/C4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C6"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C5"
+        android:layout_toEndOf="@+id/C5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C7"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/C6"
+        android:layout_toEndOf="@+id/C6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D2"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D1"
+        android:layout_toEndOf="@+id/D1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D3"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D2"
+        android:layout_toEndOf="@+id/D2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D4"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D3"
+        android:layout_toEndOf="@+id/D3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D5"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D4"
+        android:layout_toEndOf="@+id/D4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D6"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D5"
+        android:layout_toEndOf="@+id/D5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D7"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/D6"
+        android:layout_toEndOf="@+id/D6" />
+
+    <Button
+        android:text="Proceed"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/button2"
+        android:textSize="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:onClick="seat_information"/>
+
+    <Button
+        android:text=""
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:id="@+id/available"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/A1"
+        android:backgroundTint="#e6c200" />
+
+    <TextView
+        android:text="A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/A7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/B7"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="11dp"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/C1"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="10dp"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignEnd="@+id/textView5"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/textView8"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignEnd="@+id/textView4"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:text="D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/D1"
+        android:layout_alignParentStart="true"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/A1"
+        android:layout_marginTop="77dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/available"
+        android:layout_toStartOf="@+id/A2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/D1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/C2"
+        android:layout_alignStart="@+id/C1"
+        android:layout_marginTop="19dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:id="@+id/C1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/B1"
+        android:layout_alignStart="@+id/B1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/seat1"
+        android:layout_marginTop="28dp"
+        android:id="@+id/B1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/A2"
+        android:layout_alignStart="@+id/A1" />
+
+    <Button
+        android:text=""
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:id="@+id/your"
+        android:layout_below="@+id/available"
+        android:layout_alignStart="@+id/available"
+        android:backgroundTint="#87A96B" />
+
+    <Button
+        android:text=""
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:id="@+id/sold"
+        android:layout_below="@+id/your"
+        android:layout_alignStart="@+id/your"
+        android:backgroundTint="#A45B5B" />
+
+    <TextView
+        android:text="Available seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/available"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:textColor="?android:attr/colorPressedHighlight"/>
+
+    <TextView
+        android:text="Sold Seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignBottom="@+id/sold"
+        android:layout_alignStart="@+id/textView13"
+        android:textColor="#A45B5B" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/screen"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:text="Screen Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
